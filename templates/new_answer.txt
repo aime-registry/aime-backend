@@ -1,0 +1,17 @@
+Dear author,
+
+a new response is available for AIMe report {{.Report.ID}}.
+
+Content:
+{{.Answer.Content}}
+
+Issue URL: https://aime-registry.org/report/{{.Report.ID}}/issue/{{.Issue.ID}}?p={{.Token}}
+Report URL: https://aime.report/{{.Report.ID}}
+
+Use the issue URL to respond.
+Use the report URL to view the report.
+
+More information about the AIMe registry:
+https://aime-registry.org/about
+
+Thank you for using the AIMe registry!

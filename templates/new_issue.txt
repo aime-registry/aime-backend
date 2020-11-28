@@ -1,0 +1,23 @@
+Dear author,
+
+an issue has been raised for your AIMe report {{.Report.ID}} by {{.Issue.Name}}.
+
+Content:
+{{.Issue.Content}}{{if .Field}}
+
+The issue refers to answer {{.Field}} of your report.{{end}}
+
+We encourage you to respond to the issue that has been raised in order to clarify or acknowledge it. You have two weeks from now to respond before it automatically becomes public.
+
+If this issue has been written with malicious intent (e.g. spam), please forward this email to info@aime-registry.org and we will take action.
+
+Issue URL: https://aime-registry.org/report/{{.Report.ID}}/issue/{{.Issue.ID}}?p={{.Report.Token}}
+Report URL: https://aime.report/{{.Report.ID}}
+
+Use the issue URL to respond.
+Use the report URL to view your report.
+
+More information about the AIMe registry:
+https://aime-registry.org/about
+
+Thank you for using the AIMe registry!

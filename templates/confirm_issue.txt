@@ -1,0 +1,17 @@
+Dear author,
+
+thank you for raising an issue for AIMe report {{.Report.ID}}.
+
+Content:
+{{.Issue.Content}}{{if .Field}}
+
+The issue refers to answer {{.Field}} of the report.{{end}}
+
+Please confirm this issue by visiting this link: https://aime-registry.org/report/{{.Report.ID}}/issue/{{.Issue.ID}}?p={{.Issue.Token}}&confirm=1
+
+After you have confirmed the issue, the author will be informed and prompted to respond. You will receive an email once the author has responded.
+
+More information about the AIMe registry:
+https://aime-registry.org/about
+
+Thank you for using the AIMe registry!

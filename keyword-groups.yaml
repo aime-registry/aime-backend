@@ -1,0 +1,17 @@
+- sources:
+    - gene expression
+    - Gene expressions
+  targets:
+    - gene expression
+    - GE
+  caseSensitive: false
+- sources:
+    - supervised
+  targets:
+    - supervised
+  caseSensitive: false
+- sources:
+    - prediction
+  targets:
+    - prediction
+  caseSensitive: false

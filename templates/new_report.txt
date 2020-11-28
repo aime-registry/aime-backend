@@ -1,0 +1,16 @@
+Dear author,
+
+your AIMe report {{.Report.ID}} has been generated.
+
+Report URL: https://aime.report/{{.Report.ID}}
+Admin URL: https://aime-registry.org/questionnaire?id={{.Report.ID}}&p={{.Report.Token}}
+
+Use the report URL to reference your report.
+Use the admin URL to create new revisions of your report.
+
+More information about the AIMe registry:
+https://aime-registry.org/about
+
+Keep this email for future revisions or save the admin URL.
+
+Thank you for using the AIMe registry!
